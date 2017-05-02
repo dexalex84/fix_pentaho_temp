@@ -1,0 +1,17 @@
+2017/04/25 00:21:35 - Spoon - Starting job...
+2017/04/25 00:21:35 - insert - Start of job execution
+2017/04/25 00:21:35 - insert - Starting entry [Transformation]
+2017/04/25 00:21:35 - Transformation - Loading transformation from XML file [file:///C:/Work/olap-pentaho/testBulk/insert.ktr]
+2017/04/25 00:21:35 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/04/25 00:21:35 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/04/25 00:21:35 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/04/25 00:21:35 - insert - Dispatching started for transformation [insert]
+2017/04/25 00:21:35 - Table input.0 - Finished reading query, closing connection.
+2017/04/25 00:21:35 - PostgreSQL Bulk Loader.0 - Launching command: COPY "public".test_date_byte_insert ( id, datetime_field, binary_field )  FROM STDIN WITH CSV DELIMITER AS ';' QUOTE AS '"';
+2017/04/25 00:21:35 - Table input.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2017/04/25 00:21:35 - PostgreSQL Bulk Loader.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2017/04/25 00:21:35 - insert - Starting entry [Success]
+2017/04/25 00:21:35 - insert - Finished job entry [Success] (result=[true])
+2017/04/25 00:21:35 - insert - Finished job entry [Transformation] (result=[true])
+2017/04/25 00:21:35 - insert - Job execution finished
+2017/04/25 00:21:35 - Spoon - Job has ended.

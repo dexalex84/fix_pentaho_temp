@@ -1,0 +1,117 @@
+2017/04/25 00:17:11 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/04/25 00:17:43 - Spoon - Starting job...
+2017/04/25 00:17:44 - Spoon - ERROR (version 6.0.1.0-386, build 1 from 2015-12-03 11.37.25 by buildguy) : history data conversion issue
+2017/04/25 00:17:44 - Spoon - ERROR (version 6.0.1.0-386, build 1 from 2015-12-03 11.37.25 by buildguy) : org.pentaho.di.core.exception.KettleValueException: 
+2017/04/25 00:17:44 - Spoon - RESULT Boolean : There was a data type error: the data type of java.lang.String object [true] does not correspond to value meta [Boolean]
+2017/04/25 00:17:44 - Spoon - 
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.core.row.value.ValueMetaBase.getString(ValueMetaBase.java:1585)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.job.JobHistoryDelegate.displayHistoryData(JobHistoryDelegate.java:592)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.job.JobHistoryDelegate.access$900(JobHistoryDelegate.java:79)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.job.JobHistoryDelegate$2$2.run(JobHistoryDelegate.java:430)
+2017/04/25 00:17:44 - Spoon - 	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.Spoon.readAndDispatch(Spoon.java:1339)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.Spoon.waitForDispose(Spoon.java:7939)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.Spoon.start(Spoon.java:9214)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.Spoon.main(Spoon.java:653)
+2017/04/25 00:17:44 - Spoon - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2017/04/25 00:17:44 - Spoon - 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at java.lang.reflect.Method.invoke(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.commons.launcher.Launcher.main(Launcher.java:92)
+2017/04/25 00:17:44 - Spoon - ERROR (version 6.0.1.0-386, build 1 from 2015-12-03 11.37.25 by buildguy) : history data conversion issue
+2017/04/25 00:17:44 - Spoon - ERROR (version 6.0.1.0-386, build 1 from 2015-12-03 11.37.25 by buildguy) : org.pentaho.di.core.exception.KettleValueException: 
+2017/04/25 00:17:44 - Spoon - RESULT Boolean : There was a data type error: the data type of java.lang.String object [true] does not correspond to value meta [Boolean]
+2017/04/25 00:17:44 - Spoon - 
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.core.row.value.ValueMetaBase.getString(ValueMetaBase.java:1585)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.job.JobHistoryDelegate.displayHistoryData(JobHistoryDelegate.java:592)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.job.JobHistoryDelegate.access$900(JobHistoryDelegate.java:79)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.job.JobHistoryDelegate$2$2.run(JobHistoryDelegate.java:430)
+2017/04/25 00:17:44 - Spoon - 	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.Spoon.readAndDispatch(Spoon.java:1339)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.Spoon.waitForDispose(Spoon.java:7939)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.Spoon.start(Spoon.java:9214)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.Spoon.main(Spoon.java:653)
+2017/04/25 00:17:44 - Spoon - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2017/04/25 00:17:44 - Spoon - 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at java.lang.reflect.Method.invoke(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.commons.launcher.Launcher.main(Launcher.java:92)
+2017/04/25 00:17:44 - Spoon - ERROR (version 6.0.1.0-386, build 1 from 2015-12-03 11.37.25 by buildguy) : history data conversion issue
+2017/04/25 00:17:44 - Spoon - ERROR (version 6.0.1.0-386, build 1 from 2015-12-03 11.37.25 by buildguy) : org.pentaho.di.core.exception.KettleValueException: 
+2017/04/25 00:17:44 - Spoon - RESULT Boolean : There was a data type error: the data type of java.lang.String object [true] does not correspond to value meta [Boolean]
+2017/04/25 00:17:44 - Spoon - 
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.core.row.value.ValueMetaBase.getString(ValueMetaBase.java:1585)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.job.JobHistoryDelegate.displayHistoryData(JobHistoryDelegate.java:592)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.job.JobHistoryDelegate.access$900(JobHistoryDelegate.java:79)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.job.JobHistoryDelegate$2$2.run(JobHistoryDelegate.java:430)
+2017/04/25 00:17:44 - Spoon - 	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.Spoon.readAndDispatch(Spoon.java:1339)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.Spoon.waitForDispose(Spoon.java:7939)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.Spoon.start(Spoon.java:9214)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.di.ui.spoon.Spoon.main(Spoon.java:653)
+2017/04/25 00:17:44 - Spoon - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2017/04/25 00:17:44 - Spoon - 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at java.lang.reflect.Method.invoke(Unknown Source)
+2017/04/25 00:17:44 - Spoon - 	at org.pentaho.commons.launcher.Launcher.main(Launcher.java:92)
+2017/04/25 00:17:52 - insert - Start of job execution
+2017/04/25 00:17:52 - insert - Starting entry [Transformation]
+2017/04/25 00:17:52 - Transformation - Loading transformation from XML file [file:///C:/Work/olap-pentaho/testBulk/insert.ktr]
+2017/04/25 00:17:52 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/04/25 00:17:52 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/04/25 00:17:52 - cfgbuilder - Warning: The configuration parameter [org] is not supported by the default configuration builder for scheme: sftp
+2017/04/25 00:17:52 - insert - Dispatching started for transformation [insert]
+2017/04/25 00:17:53 - Table input.0 - ERROR (version 6.0.1.0-386, build 1 from 2015-12-03 11.37.25 by buildguy) : Unexpected error
+2017/04/25 00:17:53 - Table input.0 - ERROR (version 6.0.1.0-386, build 1 from 2015-12-03 11.37.25 by buildguy) : org.pentaho.di.core.exception.KettleDatabaseException: 
+2017/04/25 00:17:53 - Table input.0 - Couldn't get row from result set
+2017/04/25 00:17:53 - Table input.0 - 
+2017/04/25 00:17:53 - Table input.0 - Unable to get value 'Binary' from database resultset, index 2
+2017/04/25 00:17:53 - Table input.0 - The conversion from binary to BLOB is unsupported.
+2017/04/25 00:17:53 - Table input.0 - 
+2017/04/25 00:17:53 - Table input.0 - 
+2017/04/25 00:17:53 - Table input.0 - 	at org.pentaho.di.core.database.Database.getRow(Database.java:2367)
+2017/04/25 00:17:53 - Table input.0 - 	at org.pentaho.di.core.database.Database.getRow(Database.java:2337)
+2017/04/25 00:17:53 - Table input.0 - 	at org.pentaho.di.core.database.Database.getRow(Database.java:2315)
+2017/04/25 00:17:53 - Table input.0 - 	at org.pentaho.di.trans.steps.tableinput.TableInput.doQuery(TableInput.java:247)
+2017/04/25 00:17:53 - Table input.0 - 	at org.pentaho.di.trans.steps.tableinput.TableInput.processRow(TableInput.java:138)
+2017/04/25 00:17:53 - Table input.0 - 	at org.pentaho.di.trans.step.RunThread.run(RunThread.java:62)
+2017/04/25 00:17:53 - Table input.0 - 	at java.lang.Thread.run(Unknown Source)
+2017/04/25 00:17:53 - Table input.0 - Caused by: org.pentaho.di.core.exception.KettleDatabaseException: 
+2017/04/25 00:17:53 - Table input.0 - Unable to get value 'Binary' from database resultset, index 2
+2017/04/25 00:17:53 - Table input.0 - The conversion from binary to BLOB is unsupported.
+2017/04/25 00:17:53 - Table input.0 - 
+2017/04/25 00:17:53 - Table input.0 - 	at org.pentaho.di.core.row.value.ValueMetaBase.getValueFromResultSet(ValueMetaBase.java:4702)
+2017/04/25 00:17:53 - Table input.0 - 	at org.pentaho.di.core.database.BaseDatabaseMeta.getValueFromResultSet(BaseDatabaseMeta.java:2091)
+2017/04/25 00:17:53 - Table input.0 - 	at org.pentaho.di.core.database.DatabaseMeta.getValueFromResultSet(DatabaseMeta.java:2901)
+2017/04/25 00:17:53 - Table input.0 - 	at org.pentaho.di.core.database.Database.getRow(Database.java:2359)
+2017/04/25 00:17:53 - Table input.0 - 	... 6 more
+2017/04/25 00:17:53 - Table input.0 - Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The conversion from binary to BLOB is unsupported.
+2017/04/25 00:17:53 - Table input.0 - 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:191)
+2017/04/25 00:17:53 - Table input.0 - 	at com.microsoft.sqlserver.jdbc.DataTypes.throwConversionError(DataTypes.java:1241)
+2017/04/25 00:17:53 - Table input.0 - 	at com.microsoft.sqlserver.jdbc.ServerDTVImpl.getValue(dtv.java:2943)
+2017/04/25 00:17:53 - Table input.0 - 	at com.microsoft.sqlserver.jdbc.DTV.getValue(dtv.java:206)
+2017/04/25 00:17:53 - Table input.0 - 	at com.microsoft.sqlserver.jdbc.Column.getValue(Column.java:130)
+2017/04/25 00:17:53 - Table input.0 - 	at com.microsoft.sqlserver.jdbc.SQLServerResultSet.getValue(SQLServerResultSet.java:2087)
+2017/04/25 00:17:53 - Table input.0 - 	at com.microsoft.sqlserver.jdbc.SQLServerResultSet.getValue(SQLServerResultSet.java:2072)
+2017/04/25 00:17:53 - Table input.0 - 	at com.microsoft.sqlserver.jdbc.SQLServerResultSet.getBlob(SQLServerResultSet.java:2592)
+2017/04/25 00:17:53 - Table input.0 - 	at org.pentaho.di.core.row.value.ValueMetaBase.getValueFromResultSet(ValueMetaBase.java:4671)
+2017/04/25 00:17:53 - Table input.0 - 	... 9 more
+2017/04/25 00:17:53 - Table input.0 - Finished reading query, closing connection.
+2017/04/25 00:17:53 - insert - ERROR (version 6.0.1.0-386, build 1 from 2015-12-03 11.37.25 by buildguy) : Errors detected!
+2017/04/25 00:17:53 - PostgreSQL Bulk Loader.0 - The input stream of this step and/or the PSQL process is null.  Load was not executed.
+2017/04/25 00:17:53 - Table input.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=1)
+2017/04/25 00:17:53 - insert - ERROR (version 6.0.1.0-386, build 1 from 2015-12-03 11.37.25 by buildguy) : Errors detected!
+2017/04/25 00:17:53 - insert - Transformation detected one or more steps with errors.
+2017/04/25 00:17:53 - insert - Transformation is killing the other steps!
+2017/04/25 00:17:53 - insert - Finished job entry [Transformation] (result=[false])
+2017/04/25 00:17:53 - insert - Job execution finished
+2017/04/25 00:17:53 - Spoon - Job has ended.
